@@ -13,7 +13,7 @@ namespace SemesterProject
         GameMenger gameMenger = new GameMenger();
         public void ShapMove(char[,] form)
         {
-            
+             
         }
 
         public void ShapTurn(char[,] form) { }
