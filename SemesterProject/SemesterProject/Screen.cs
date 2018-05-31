@@ -3,22 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
+//using System.Timers;
 
 namespace SemesterProject
 {  
     class Screen
     {
 
-        private int startingPointColumns =25;
-        private int startingPointRow = 20;
+        private int startingPointColumns = 20;
+        private int startingPointRow = 1;
         private int currnetPosColumns;
         private int currnetPosRow;
+        
 
 
-
-        static int bordX = 40;
-        static int bordY = 50;
-        public char[,] screenBoard = new char[bordX, bordY];
+        static int boardColumns = 40;
+        static int boardRows = 50;
+        public char[,] screenBoard = new char[boardColumns, boardRows];
 
         public void GetBordSize()
         {
@@ -34,7 +36,7 @@ namespace SemesterProject
                 for (int j = 0; j < bord.GetLength(1); j++)
                 {
                     Console.SetCursorPosition(i+5, j+5);
-                    if(i == 0 || j == 0 || i == bordX-1 || j == bordY-1)
+                    if(i == 0 || j == 0 || i == boardColumns-1 || j == boardRows-1)
                     {
                         Console.Write("@");
                     }
@@ -51,7 +53,7 @@ namespace SemesterProject
 
         public void Menu() { }
 
-        public void Turn(Shape shape)
+        public void TurnStart(Shape shape)
         {
             currnetPosColumns = startingPointColumns;
             currnetPosRow = startingPointRow;
@@ -69,6 +71,20 @@ namespace SemesterProject
             currnetPosRow = startingPointRow;
             
             DrawBord(screenBoard);
+        }
+
+        public void ShapMove(Shape shape)
+        {
+            Timer timer = new Timer(CallBack, null,0,1000);
+        }
+
+        public void CallBack(object o)
+        {
+            if(currnetPosColumns < boardColumns)
+            {
+                currnetPosColumns++;
+            }
+
         }
     }
 }

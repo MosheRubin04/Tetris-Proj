@@ -49,6 +49,7 @@
     <Compile Include="Screen.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="Squre.cs" />
+    <Compile Include="VerticalLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SemesterProject
 {
-    class Squre : Shape
+    class VerticalLine : Shape
     {
-        //public override char[,] TheBlock = new char[,] { { '#', '#' }, { '#', '#' } };
-        char[,] theBlock = new char[,] { { '#', '#' }, { '#', '#' } };
+
+        char[,] theBlock = new char[,] { { '#' }, { '#' }, { '#' }, { '#' } };
 
         public override char[,] TheBlock
         {
@@ -20,3 +20,4 @@ namespace SemesterProject
         }
     }
 }
+
