@@ -4,4 +4,4 @@ E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\bin\Debug\Sem
 E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csproj.CoreCompileInputs.cache
 E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.exe
 E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.pdb
-E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csprojAssemblyReference.cache
+E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csprojResolveAssemblyReference.cache

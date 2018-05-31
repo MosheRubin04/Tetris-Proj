@@ -8,7 +8,7 @@ namespace SemesterProject
 {
     class GameMenger
     {
-        LinkedList<Shap> ShapBank;
+        //LinkedList<Shape> ShapBank;
         public bool isGameOver { get; set; }
         public string playerName { get; set; }
 

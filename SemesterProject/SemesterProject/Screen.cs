@@ -9,9 +9,16 @@ namespace SemesterProject
     class Screen
     {
 
+        private int startingPointColumns =25;
+        private int startingPointRow = 20;
+        private int currnetPosColumns;
+        private int currnetPosRow;
+
+
+
         static int bordX = 40;
         static int bordY = 50;
-        public char[,] bord1 = new char[bordX, bordY];
+        public char[,] screenBoard = new char[bordX, bordY];
 
         public void GetBordSize()
         {
@@ -29,7 +36,12 @@ namespace SemesterProject
                     Console.SetCursorPosition(i+5, j+5);
                     if(i == 0 || j == 0 || i == bordX-1 || j == bordY-1)
                     {
-                        Console.Write("#");
+                        Console.Write("@");
+                    }
+
+                    else
+                    {
+                        Console.Write(bord[i, j]);
                     }
                     
                 }
@@ -39,6 +51,24 @@ namespace SemesterProject
 
         public void Menu() { }
 
-
+        public void Turn(Shape shape)
+        {
+            currnetPosColumns = startingPointColumns;
+            currnetPosRow = startingPointRow;
+            Console.Clear();
+            for (int i = 0; i < shape.TheBlock.GetLength(0); i++)
+            {
+                for (int j = 0; j < shape.TheBlock.GetLength(1); j++)
+                {
+                    screenBoard[currnetPosColumns, currnetPosRow] = shape.TheBlock[i, j];
+                    currnetPosColumns++;
+                }
+                currnetPosColumns = startingPointColumns;
+                currnetPosRow++;
+            }
+            currnetPosRow = startingPointRow;
+            
+            DrawBord(screenBoard);
+        }
     }
 }

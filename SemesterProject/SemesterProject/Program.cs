@@ -11,8 +11,10 @@ namespace SemesterProject
         static void Main(string[] args)
         {
             Screen gameScreen = new Screen();
-            gameScreen.DrawBord(gameScreen.bord1);
+            gameScreen.DrawBord(gameScreen.screenBoard);
+            Squre squre1 = new Squre();
 
+            gameScreen.Turn(squre1);           
         }
     }
 }

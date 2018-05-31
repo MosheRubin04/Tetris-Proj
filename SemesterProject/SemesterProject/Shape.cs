@@ -8,12 +8,15 @@ using System.Threading;
 
 namespace SemesterProject
 {
-    class Shap
+    class Shape
     {
-        GameMenger gameMenger = new GameMenger();
+
+        //public virtual char[,] form;
+        public virtual char[,] TheBlock  { get; set; }
+
         public void ShapMove(char[,] form)
         {
-             
+
         }
 
         public void ShapTurn(char[,] form) { }
@@ -24,9 +27,9 @@ namespace SemesterProject
 
         public void DelayAction()
         {
-            Timer timer = new Timer();
-            timer.BeginInit();
-            
+            //Timer timer = new Timer();
+            //timer.BeginInit();
+
 
         }
     }

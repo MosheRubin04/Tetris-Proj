@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace SemesterProject
 {
-    class Squre : Shap
+    class Squre : Shape
     {
-        public char[,] form = new char[,] { { '#', '#' }, { '#', '#' } };        
-        
+        //public override char[,] TheBlock = new char[,] { { '#', '#' }, { '#', '#' } };
+        char[,] theBlock = new char[,] { { '#', '#' }, { '#', '#' } };
+
+        public override char[,] TheBlock
+        {
+            get
+            {
+                return theBlock;
+            }
+        }
     }
 }
