@@ -72,19 +72,19 @@ namespace SemesterProject
             
             DrawBord(screenBoard);
         }
-
+        /*
         public void ShapMove(Shape shape)
         {
             Timer timer = new Timer(CallBack, null,0,1000);
         }
-
+        
         public void CallBack(object o)
         {
-            if(currnetPosColumns < boardColumns)
+            if(screenBoard[currnetPosColumns ])
             {
                 currnetPosColumns++;
             }
-
-        }
+            DrawBord();
+        }*/
     }
 }

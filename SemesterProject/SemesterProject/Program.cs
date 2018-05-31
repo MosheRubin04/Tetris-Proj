@@ -12,11 +12,11 @@ namespace SemesterProject
         {
             Screen gameScreen = new Screen();
             gameScreen.DrawBord(gameScreen.screenBoard);
-            Squre squre1 = new Squre();
+            Square squre1 = new Square();
 
             VerticalLine vertical = new VerticalLine();
 
-            gameScreen.TurnStart(vertical);           
+            gameScreen.TurnStart(squre1);           
         }
     }
 }

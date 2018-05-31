@@ -9,9 +9,7 @@ namespace SemesterProject
     class Square : Shape
     {        
         char[,] theBlock = new char[,] { { '#', '#' }, { '#', '#' } };
-
-
-
+        
         public override char[,] TheBlock
         {
             get
@@ -19,5 +17,7 @@ namespace SemesterProject
                 return theBlock;
             }
         }
+
+        public override int BottomPointColumn { get; set; }
     }
 }

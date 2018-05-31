@@ -12,9 +12,9 @@ namespace SemesterProject
     {
         public virtual char[,] TheBlock  { get; set; }
 
-        public int BottomPointColumn { get; set; }
+        public virtual int BottomPointColumn { get; set; }
 
-        public int BottomPointRow { get; set; }
+        public virtual int BottomPointRow { get; set; }
 
         public void ShapTurn(char[,] form) { }
 
