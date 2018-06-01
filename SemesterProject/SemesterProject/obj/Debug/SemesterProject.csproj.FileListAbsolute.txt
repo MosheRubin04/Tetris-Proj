@@ -5,3 +5,10 @@ E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\Sem
 E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.exe
 E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.pdb
 E:\Scripting\פרויקט סיום\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csprojResolveAssemblyReference.cache
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\bin\Debug\SemesterProject.pdb
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csprojAssemblyReference.cache
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csproj.CoreCompileInputs.cache
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.exe
+C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.pdb

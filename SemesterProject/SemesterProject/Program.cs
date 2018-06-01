@@ -10,13 +10,18 @@ namespace SemesterProject
     {
         static void Main(string[] args)
         {
+            GameMenger menger = new GameMenger();
             Screen gameScreen = new Screen();
             gameScreen.DrawBord(gameScreen.screenBoard);
             Square squre1 = new Square();
 
             VerticalLine vertical = new VerticalLine();
 
-            gameScreen.TurnStart(squre1);           
+            gameScreen.TurnStart(vertical);
+            while (!menger.isGameOver)
+            {
+                gameScreen.ShapMove(vertical);
+            }
         }
     }
 }

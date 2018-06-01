@@ -72,7 +72,7 @@ namespace SemesterProject
             
             DrawBord(screenBoard);
         }
-        /*
+        
         public void ShapMove(Shape shape)
         {
             Timer timer = new Timer(CallBack, null,0,1000);
@@ -80,11 +80,11 @@ namespace SemesterProject
         
         public void CallBack(object o)
         {
-            if(screenBoard[currnetPosColumns ])
+            if(screenBoard[currnetPosColumns+1, currnetPosRow] != '#')
             {
-                currnetPosColumns++;
+                currnetPosRow++;
             }
-            DrawBord();
-        }*/
+            DrawBord(screenBoard);
+        }
     }
 }
