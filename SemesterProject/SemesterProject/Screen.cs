@@ -15,14 +15,15 @@ namespace SemesterProject
         private int startingPointRow = 1;
         private int currnetPosColumns;
         private int currnetPosRow;
-        
+
+        public Shape currentShape = new Shape();
 
 
         static int boardColumns = 40;
         static int boardRows = 50;
         public char[,] screenBoard = new char[boardColumns, boardRows];
 
-        public void GetBordSize()
+        public void SetBordSize()
         {
             Console.SetCursorPosition(5, 5);
             Console.WriteLine("Chose bord size");
@@ -75,16 +76,24 @@ namespace SemesterProject
         
         public void ShapMove(Shape shape)
         {
-            Timer timer = new Timer(CallBack, null,0,1000);
+            if (screenBoard[currnetPosColumns, currnetPosRow + 1] != '#' || screenBoard[currnetPosColumns, currnetPosRow + 1] != '@')
+            {
+                currnetPosRow++;
+                for (int i = 0; i < shape.TheBlock.GetLength(0); i++)
+                {
+                    for (int j = 0; j < shape.TheBlock.GetLength(1); j++)
+                    {
+                        screenBoard[currnetPosColumns, currnetPosRow] = shape.TheBlock[i,j];
+                    }
+                }
+                
+            }
+            DrawBord(screenBoard);
         }
         
         public void CallBack(object o)
         {
-            if(screenBoard[currnetPosColumns+1, currnetPosRow] != '#')
-            {
-                currnetPosRow++;
-            }
-            DrawBord(screenBoard);
+            ShapMove(currentShape);
         }
     }
 }
