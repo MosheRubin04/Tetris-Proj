@@ -12,3 +12,10 @@ C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterPro
 C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csproj.CoreCompileInputs.cache
 C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.exe
 C:\Users\moshe\OneDrive\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.pdb
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe.config
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\bin\Debug\SemesterProject.exe
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\bin\Debug\SemesterProject.pdb
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.exe
+C:\Users\USER\Documents\GitHub\Tetris-Proj\SemesterProject\SemesterProject\obj\Debug\SemesterProject.pdb
