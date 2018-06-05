@@ -23,10 +23,10 @@ namespace SemesterProject
         static int boardRows = 50;
         public char[,] screenBoard = new char[boardColumns, boardRows];
 
-        public void SetBordSize()
+        public void SetBoardSize()
         {
             Console.SetCursorPosition(5, 5);
-            Console.WriteLine("Chose bord size");
+            Console.WriteLine("Choose board size");
             
         }
 
